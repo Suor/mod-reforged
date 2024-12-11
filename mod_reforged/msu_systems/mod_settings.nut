@@ -5,7 +5,7 @@
 
 	characterScreenPage.addDivider("MiscDivider1");
 	characterScreenPage.addBooleanSetting("CharacterScreen_ShowBaseAttributeRangesHiring", true, "Show Base Attribute Ranges (Hiring)", "If enabled, the maximum and minimum Base Attribute Ranges for every background is displayed during Hiring, when hovering over the background icon.");
-	characterScreenPage.addEnumSetting("CharacterScreen_ShowBaseAttributeRangesRegular", "Always", ["Always", "Only New Recruits", "Never"], "Show Base Attribute Ranges (Regular)", "When this condition is met, the minimum and maximum Base Attribute Ranges for backgrounds are displayed, when looking at their tooltips. \'Only New Recruits\' only displays this info while your Level is exactly one higher than your available Level-Ups.");
+	characterScreenPage.addEnumSetting("CharacterScreen_ShowBaseAttributeRangesRegular", "Only New Recruits", ["Always", "Only New Recruits", "Never"], "Show Base Attribute Ranges (Regular)", "When this condition is met, the minimum and maximum Base Attribute Ranges for backgrounds are displayed, when looking at their tooltips. \'Only New Recruits\' stops displaying the info, once you have spent one level-up.");
 }
 
 {	// Tactical Tooltips
